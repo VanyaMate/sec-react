@@ -1,11 +1,12 @@
 {
     "name": "@vanyamate/sec-react",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Support for react",
     "scripts": {
         "g:type": "tsc index.ts --declaration --emitDeclarationOnly"
     },
-    "types": "index.d.ts",
+    "main": "./index.ts",
+    "types": "./index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/VanyaMate/sec-react.git"
