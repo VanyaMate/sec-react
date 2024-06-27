@@ -2,6 +2,10 @@
 
 Support for sec
 
+```
+npm i @vanyamate/sec-react
+```
+
 ```typescript
 // /model/todo/todo.model.ts
 import { store } from '@vanyamate/sec';
