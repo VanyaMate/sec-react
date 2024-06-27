@@ -5,6 +5,7 @@
     "scripts": {
         "g:type": "tsc index.ts --declaration --emitDeclarationOnly"
     },
+    "types": "index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/VanyaMate/sec-react.git"
