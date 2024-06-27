@@ -4,10 +4,10 @@ Support for sec
 
 ```typescript
 // /model/todo/todo.model.ts
-import { useStore } from './index';
+import { store } from '@vanyamate/sec';
 
 
-export const todoLoading = useStore(false);
+export const todoLoading = store(false);
 ```
 
 ```typescript jsx
