@@ -1,6 +1,6 @@
 {
     "name": "@vanyamate/sec-react",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Support for react",
     "scripts": {
         "g:type": "tsc index.ts --declaration --emitDeclarationOnly"
@@ -24,7 +24,7 @@
     },
     "homepage": "https://github.com/VanyaMate/sec-react#readme",
     "dependencies": {
-        "@vanyamate/sec": "^0.0.6",
+        "@vanyamate/sec": "^0.1.0",
         "react": "^18.3.1"
     }
 }
