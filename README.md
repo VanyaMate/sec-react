@@ -15,6 +15,8 @@ export const todoLoading = store(false);
 ```
 
 ```typescript jsx
+import { useStore } from '@vanyamate/sec-react';
+
 // any react component
 const loading = useStore(todoLoading);
 
