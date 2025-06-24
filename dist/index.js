@@ -1,4 +1,7 @@
-import { useSyncExternalStore } from 'react';
-export const useStore = function (store) {
-    return useSyncExternalStore(store.subscribe, store.get);
+import { useSyncExternalStore as r } from "react";
+const n = function(e) {
+  return r(e.subscribe, e.get);
+};
+export {
+  n as useStore
 };
